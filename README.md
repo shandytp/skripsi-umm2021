@@ -15,9 +15,9 @@ Akan membandingkan hasil dari ketiga skenario dalam bentuk tabel pengujian
 
 ### TODO List
 
-- [x] Replikasi model dan codingan dari paper utama
-- [x] Membuat function untuk Otsu, Niblack dan Sauvola thresholding
-- [x] Apply image function ke test.jpg
-- [x] Mengambil nama file dalam bentuk list
+- [x] ~~Replikasi model dan codingan dari paper utama~~
+- [x] ~~Membuat function untuk Otsu, Niblack dan Sauvola thresholding~~
+- [x] ~~Apply image function ke test.jpg~~
+- [x] ~~Mengambil nama file dalam bentuk list~~
 - [ ] Apply image function ke list file
 - [ ] Train new image dengan model dari paper utama
