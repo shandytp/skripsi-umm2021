@@ -19,5 +19,6 @@ Akan membandingkan hasil dari ketiga skenario dalam bentuk tabel pengujian
 - [x] ~~Membuat function untuk Otsu, Niblack dan Sauvola thresholding~~
 - [x] ~~Apply image function ke test.jpg~~
 - [x] ~~Mengambil nama file dalam bentuk list~~
+- [x] ~~Apply image function ke test.jpg dan save ke bentuk baru~~
 - [ ] Apply image function ke list file
 - [ ] Train new image dengan model dari paper utama
