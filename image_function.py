@@ -4,6 +4,7 @@ import os
 from skimage.filters import threshold_otsu, threshold_niblack, threshold_sauvola
 import matplotlib.pyplot as plt
 import matplotlib
+import numpy as np
 
 matplotlib.rcParams['font.size'] = 9
 
@@ -30,13 +31,11 @@ def otsu_thresh(file, img_width, img_height):
         masih belum tahu hehe
     '''
 
-    image = cv2.imread(file, cv2.IMREAD_GRAYSCALE)
+    image = cv2.imread(file, 0)
     image = cv2.resize(image, (img_width, img_height))
 
-    binary_global = image > threshold_otsu(image)
+    return cv2.threshold(image, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
 
-    # return cv2.imshow(binary_global)
-    return binary_global
 
 def niblack_thresh(file, img_width, img_height, window_size):
     '''
@@ -107,11 +106,14 @@ def sauvola_thresh(file, img_width, img_height, window_size):
 # Disini apply function ke satu file gambar
 
 # gambar = niblack_thresh('test.jpg', 224, 224, 25)
-
-gambar = otsu_thresh('test.jpg', 224, 224)
-print(gambar)
 # gambar = sauvola_thresh('test.jpg', 224, 224, 25)
+gambar = otsu_thresh('test.jpg', 224, 224)
+filename = 'test_otsu_baru_lagi.jpg'
+cv2.imwrite(filename, gambar)
+# print(gambar)
 
-# plt.imshow(gambar, cmap='gray')
-# plt.axis('off')
+
+plt.imshow(gambar, cmap='gray')
+plt.show()
+plt.axis('off')
 
