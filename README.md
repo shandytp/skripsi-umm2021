@@ -21,4 +21,4 @@ Akan membandingkan hasil dari ketiga skenario dalam bentuk tabel pengujian
 - [x] ~~Mengambil nama file dalam bentuk list~~
 - [x] ~~Apply image function ke test.jpg dan save ke bentuk baru~~
 - [x] ~~Apply image function ke list file~~
-- [ ] Train new image dengan model dari paper utama
+- [x] ~~Train new image dengan model dari paper utama~~
