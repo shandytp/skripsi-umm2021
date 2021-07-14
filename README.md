@@ -9,6 +9,7 @@ Melakukan klasifikasi tumor otak dengan metode SVM
 - Skenario Pertama akan menggunakan metode segmentasi Otsu thresholding dalam membantu performa klasifikasi tumor otak menggunakan metode SVM
 - Skenario Kedua akan menggunakan metode segmentasi Niblack thresholding dalam membantu performa klasifikasi tumor otak menggunakan metode SVM
 - Skenario Ketiga akan menggunakan metode segmentasi Sauvola thresholding dalam membantu performa klasifikasi tumor otak menggunakan metode SVM
+- Skenario Keempat tidak menggunakan metode segmentasi apapun dan akan melakukan klasifikasi tumor otak menggunakan metode SVM
 
 ### Output
 Akan membandingkan hasil dari ketiga skenario dalam bentuk tabel pengujian
