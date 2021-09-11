@@ -36,27 +36,19 @@ Menggunakan Convolutional Neural Network (CNN) untuk proses feature extraction d
 
 - Accuracy
 
-$$
-Accuracy = \frac{TP+TN}{TP+TN+FP+FN}
-$$
+![](https://latex.codecogs.com/gif.latex?Accuracy%20%3D%20%5Cfrac%7BTP&plus;TN%7D%7BTP&plus;TN&plus;FP&plus;FN%7D)
 
 - Recall
 
-$$
-Recall = \frac{TP}{TP+FN}
-$$
+![](https://latex.codecogs.com/gif.latex?Recall%20%3D%20%5Cfrac%7BTP%7D%7BTP&plus;FN%7D)
 
 - Precision
 
-$$
-Precision = \frac{TP}{TP+FP}
-$$
+![](https://latex.codecogs.com/gif.latex?Precision%20%3D%20%5Cfrac%7BTP%7D%7BTP&plus;FP%7D)
 
 - F1-score
 
-$$
-F1-score = \frac{2*(Precision*Recall)}{(Precision*Recall)}
-$$
+![](https://latex.codecogs.com/gif.latex?F1-score%20%3D%20%5Cfrac%7B2*%28Precision*Recall%29%7D%7B%28Precision*Recall%29%7D)
 
 ### 4.5 Scenario
 
